@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/stylesheet.scss">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <section id="header">
+      <h1 class="site-title"><a href="#"><h1><img src="img/RESTAURANT.png" alt="title"></h1></a></h1>
+      <div class="menu-list">
+          <ul>
+            <li class="concept1"><a href="#concept"><p>Concept</p></a></li>
+            <li class="menu1"><a href="#menu"><p>Menu</p></a></li>
+            <li class="cheff1"><a href="#cheff"><p>Cheff</p></a></li>
+            <li class="access1"><a href="#access"><p>Access</p></a></li>
+            <li class="reservation1"><a href="#reservation"><p>Reservation</p></a></li>
+          </ul>
+      </div>
+    </section>
+    </header>
+
+<main>
+<!-- mainvisual -->
+<div class="visual">
+  <img src="img/daan-evers-tKN1WXrzQ3s-unsplash.png" alt="main visual">
+</div>
+
+<!-- concept -->
+<section id="concept" class="wrapper">
+  <h2 class="sec-title"><img src="img/concept.png" alt="concept"></h2>
+  <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+  <div class="more"><a href="#"><img src="img/more.png" alt="more"></a></div>
+</section>
+
+<div class="visual"><img src="img/subvisual.png" alt="subvisual"></div>
+
+<!-- menu -->
+<section id="menu" class="wrapper">
+  <h2 class="sec-title"><img src="img/menu.png" alt="menu"></h2>
+  <div class="border">
+    <div class="menu">
+      <div class="menu-name">
+        <h1>メニュー名</h1>
+        <h2>xxxx円</h2>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+      <img src="img/dish.png" alt="dish">
+    </div>
+    
+    <div class="menu">
+      <div class="menu-name">
+        <h1>メニュー名</h1>
+        <h2>xxxx円</h2>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+      <img src="img/dish.png" alt="dish">
+    </div>
+    
+    <div class="menu">
+      <div class="menu-name">
+        <h1>メニュー名</h1>
+        <h2>xxxx円</h2>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+      <img src="img/dish.png" alt="dish">
+    </div>
+    
+    <div class="menu">
+      <div class="menu-name">
+        <h1>メニュー名</h1>
+        <h2>xxxx円</h2>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+      <img src="img/dish.png" alt="dish">
+    </div>
+  </div>
+  </section>
+  
+  <!-- cheff -->
+  <section id="cheff" class="wrapper">
+    <h2 class="sec-title"><img src="img/cheff.png" alt="cheff"></h2>
+    <div class="profile">
+    <img src="img/person.png" alt="cheff">
+    <div class="container">
+      <h4>名前：</h4>
+      <h5>◯◯◯◯　◯◯◯◯</h5>
+      <h4>経歴：</h4>
+      <h5>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h5>
+      <h4>一言：</h4>
+      <h5>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</h5>
+    </div>
+    </div>
+</section>
+
+<section id="access" class="wrapper">
+  <h2 class="sec-title"><img src="img/access.png" alt="access"></h2>
+  <div class="adress">
+    <div class="containers">
+      <h3>住所</h3>
+      <h4>◯◯◯◯◯◯◯◯◯◯◯</h4>
+      <h3>店名</h3>
+      <h4>◯◯◯◯◯◯◯◯◯◯◯</h4>
+    </div>
+    <img src="img/map.png" alt="map">
+  </div>
+</section>
+
+<section id="reservation" class="wrapper">
+  <h2 class="sec-title"><img src="img/reservation.png" alt="reservation"></h2>
+  <form action="#" method="POST">
+    <dl>
+      <dt><label for="name">名前</label></dt>
+      <dd><input type="text" id="name"></dd>
+      <dt><label for="date">ご予約日</label></dt>
+      <dd><input type="text" id="date"></dd>
+      <dt><label for="message">ご要望（任意）</label></dt>
+      <dd><textarea id="message"></textarea></dd>
+    </dl>
+    <div class="btn"><input type="submit" value="送信"></div>
+  </form>
+</section>
+</main>
+
+<footer>
+  <p>&copy; Restaurant</p>
+  <div class="top-btn"><a href="#"><img src="img/up.png" alt="top"></a></div>
+</footer>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
