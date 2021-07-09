@@ -1,0 +1,251 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #29242e;
+}
+li {
+  list-style: none;
+}
+.sec-title {
+  margin: 40px auto 80px auto;
+  img {
+    max-width: 400px;
+    width: 25%;
+  }
+}
+.wrapper {
+  text-align: center;
+  margin: 30px 10%;
+  margin-bottom: 80px;
+}
+.site-title {
+  margin: 0 auto;
+  width: 50%;
+}
+#header {
+  text-align: center;
+  ul {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+  }
+  li {
+    font-size: 1.5rem;
+    margin: 30px 0 20px 0;
+  }
+}
+.visual {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+#concept {
+  p {
+    margin: 30px 0 50px 0;
+  }
+}
+.menu {
+  display: flex;
+  margin: 80px 50px;
+  img {
+    object-fit: cover;
+  }
+  p {
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  h1 {
+    margin-top: 20px;
+  }
+}
+.border {
+  margin-top: 40px;
+  border: #29242e solid 1px;
+}
+#cheff {
+  img {
+    width: 200px;
+    object-fit: cover;
+  }
+}
+.profile {
+  display: flex;
+  img {
+    margin-left: 50px;
+    border-radius: 10%;
+  }
+}
+.container {
+  width: 60%;
+  display: block;
+  font-size: 1.2rem;
+}
+.name,
+.history,
+.words {
+  display: flex;
+  margin-bottom: 30px;
+  h4 {
+    width: 40%;
+  }
+  h5 {
+    width: 60%;
+  }
+}
+.adress {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 400px;
+    object-fit: cover;
+  }
+}
+.containers {
+  display: block;
+  font-size: 1.5rem;
+  margin-right: 50px;
+  h3 {
+    margin-bottom: 20px;
+  }
+  h4 {
+    margin-bottom: 40px;
+    font-weight: normal;
+  }
+}
+#reservation {
+  dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  dt {
+    width: 20%;
+  }
+  dd {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  dd input,
+  dd textarea {
+    width: 80%;
+    border: #29242e 1px solid;
+    padding: 10px;
+  }
+  dd textarea {
+    height: 10rem;
+  }
+}
+.btn {
+  text-align: center;
+  input {
+    width: 200px;
+    background-color: #29242e;
+    color: #fff;
+    padding: 15px 0;
+    border: #29242e solid 1px;
+  }
+}
+.btn input:hover {
+    background: #fff;
+    color: #29242e;
+}
+footer {
+  background-color: #29242e;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  p {
+    text-align: center;
+  }
+  img {
+    width: 3%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .site-title {
+    img {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .sec-title {
+    margin-bottom: 30px;
+    img {
+      width: 40%;
+    }
+  }
+  #header {
+  ul {
+    margin: 0 40px;
+  }
+  li {
+    font-size: 1.1rem;
+    margin: 0 0 20px 0;
+  }
+  }
+.more {
+  img {
+    width: 30%;
+  }
+}
+.menu {
+  display: block;
+  margin: 80px 30px;
+  img {
+    width: 80%;
+    margin-top: 30px;
+  }
+  p {
+    margin-top: 20px;
+  }
+}
+#cheff {
+  margin: 0 auto;
+}
+.profile {
+  display: block;
+  img {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  h4 {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  h5 {
+    width: 70%;
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+}
+.adress {
+  display: block;
+  img {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+.containers {
+  display: block;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+footer {
+  img {
+    width: 30px;
+  }
+}
+}
